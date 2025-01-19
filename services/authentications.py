@@ -1,5 +1,6 @@
 from models.user import User
 
+<<<<<<< HEAD
 def is_user(users: list[User], username: str) -> bool:
     for user in users:
         if user.username == username:
@@ -9,6 +10,10 @@ def is_user(users: list[User], username: str) -> bool:
 
 def check_password(password: str) -> bool:
     p1, p2, p3, p4 = False, False, False, False
+=======
+def register() -> User:
+    pass
+>>>>>>> fa5f6d109402a01a58044b4d0832b82566f35e5d
 
     for char in password:
         if char.isupper():
